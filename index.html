@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rat du Web — Alertes promos & baisses de prix</title>
+  <meta name="description" content="Rat du Web : communauté Discord FR d'alertes bonnes affaires. Nous relayons des promotions vérifiées issues de sources officielles (Amazon, Fnac, Cdiscount...).">
+  <style>
+    :root { --bg:#0f172a; --card:#111827; --muted:#94a3b8; --text:#e5e7eb; --accent:#22d3ee; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,'Noto Sans',sans-serif; background: linear-gradient(180deg, #0b1020, #0f172a); color: var(--text); }
+    header { padding: 48px 20px 20px; text-align:center; }
+    header h1 { margin:0; font-size: clamp(28px, 5vw, 48px); line-height:1.1; }
+    header p { margin:10px auto 0; color: var(--muted); max-width: 680px; }
+    .wrap { max-width: 960px; margin: 0 auto; padding: 24px; }
+    .card { background: rgba(17,24,39,0.75); border: 1px solid rgba(255,255,255,0.06); border-radius: 16px; padding: 20px; backdrop-filter: blur(6px); }
+    h2 { font-size: 22px; margin: 0 0 12px; }
+    ul { margin: 0; padding-left: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+    @media (min-width: 820px) { .grid { grid-template-columns: 1fr 1fr; } }
+    a.button { display:inline-block; padding:12px 16px; border-radius: 10px; border:1px solid rgba(255,255,255,0.18); text-decoration:none; color:var(--text); background:linear-gradient(180deg, rgba(34,211,238,0.15), rgba(34,211,238,0.05)); }
+    a.button:hover { transform: translateY(-1px); }
+    .muted { color: var(--muted); }
+    footer { opacity: .7; text-align:center; padding: 28px; font-size: 14px; }
+    code { background: rgba(255,255,255,.07); padding: 1px 6px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rat du Web</h1>
+    <p>Communauté FR d'alertes <strong>promos & grosses baisses de prix</strong> sur le high‑tech, gaming et plus. Alerte Discord avec vérification anti‑faux prix.</p>
+    <p style="margin-top:16px">
+      <a class="button" href="https://discord.gg/BgY5gdYwfb" target="_blank" rel="noopener">Rejoindre le Discord</a>
+      &nbsp; <a class="button" href="#transparence">Transparence</a>
+    </p>
+  </header>
+
+  <main class="wrap">
+    <div class="grid">
+      <section class="card">
+        <h2>Ce que nous faisons</h2>
+        <ul>
+          <li>Surveillance de catalogues officiels (Amazon, Fnac, Cdiscount…).</li>
+          <li>Filtrage par <em>grosse</em> baisse (seuil configurable, ex. −60%).</li>
+          <li>Anti‑spam : baseline de prix, contrôle manuel des erreurs.</li>
+          <li>Publication d’alertes qualitatives sur Discord, canal dédié.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Audience & diffusion</h2>
+        <ul>
+          <li>Support principal : <strong>Discord</strong> (communauté FR).</li>
+          <li>Trafic 100 % organique — aucune incitation ou cashback.</li>
+          <li>Focus : high‑tech, gaming, électroménager, jouets.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Exemples d’alertes</h2>
+        <ul>
+          <li>SSD NVMe 2 To à −45 % sous la médiane 30j.</li>
+          <li>LEGO Star Wars &lt; 60 % du prix conseillé.</li>
+          <li>Moniteur 27” IPS = prix plancher 90j.</li>
+        </ul>
+      </section>
+
+      <section id="transparence" class="card">
+        <h2>Transparence & conformité</h2>
+        <ul>
+          <li>Accès catalogues via <strong>programmes d’affiliation</strong> uniquement.</li>
+          <li>Respect strict des CGU annonceurs et d’Awin (pas de scraping).</li>
+          <li>Les liens peuvent être trackés (affiliation). Cela n’impacte pas le prix final.</li>
+          <li>Contact : via Discord.</li>
+        </ul>
+      </section>
+    </div>
+
+    <section class="card" style="margin-top:16px">
+      <h2>Mentions</h2>
+      <p class="muted">Cette page présente l’espace publicitaire « Rat du Web ». Dernière mise à jour : 2025-08-28.</p>
+    </section>
+  </main>
+
+  <footer>© 2025 Rat du Web — Tous droits réservés.</footer>
+</body>
+</html>
